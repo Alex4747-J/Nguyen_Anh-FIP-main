@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr.Nut Official Website - A Hint of Originality</title>
+    <!-- Link to external style.css file -->
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <!-- Inter font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="main-header grid-con">
+        <h1 class="hidden">Welcome to Dr.Nut Official Website</h1>
+        <!-- Logo -->
+        <a href="#" class="col-span-full m-col-start-1 m-col-end-4">
+            <img src="images/logo.png" alt="Dr.Nut Logo" class="header-logo">
+        </a>
+        <!-- Navigation - Hidden on small screens, shown as menu icon -->
+        <nav id="main-nav" class="col-span-full m-col-start-8 m-col-end-13">
+            <h2 class="hidden">Main Navigation</h2>
+            <!-- Mobile Menu Button (Placeholder) -->
+                <input type="checkbox" id="hamburger">
+                <label class="mobile-menu-button" for="hamburger">
+                    <svg class="mobile-menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </label>
+
+            <div id="burger-con">
+                <ul>
+                    <li><a href="index.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Stories</a></li>
+                    <li><a href="#">Discover</a></li>
+                    </ul>
+            </div>
+        </nav>
+
+    </header>
+    
+
+    <!-- Hero Section -->
+     <main>
+        <div class="grid-con">
+        <section class="hero-section col-span-full l-col-span-full">
+            <h2 class="hidden">Main Hero Section</h2>
+            <!-- Background Image/Overlay -->
+            <img src="images/Hero-img.png" 
+                alt="Hero background with Dr.Nut bottles" 
+                class="hero-background-img"
+            >
+            <!-- Content Overlay -->
+            <section class="hero-content">
+                <h3 class="hero-title">Originality At Its Finest</h3>
+                <p class="hero-description">
+                    Discover the taste that brings joy and sparks moments of connection.
+                </p>
+                <a href="#" class="hero-button">
+                    Explore Products
+                </a>
+            </section>
+        </section>
+        </div>
+
+        <!-- Product Highlights Section 1 -->
+        <div class="grid-con">
+            <section class="product-highlight-section col-span-full l-col-span-full">
+                <h2 class="hidden">Products</h2>
+                <div class="product-card product-card-1">
+                    <div class="product-card-content">
+                        <h2 class="product-card-title-1">Dr.Nut Original Taste</h2>
+                        <p class="product-card-description">
+                            The original, iconic taste that has delighted the older generation. Perfect for every occasion, it's the classic refreshment you never knew you needed.
+                        </p>
+                        <a href="#" class="product-card-button-1">
+                            Learn More
+                        </a>
+                    </div>
+                    <div class="product-card-image-wrapper">
+                        <img src="images/Dr.Nut_Beer_Bottle.png" 
+                            alt="Dr.Nut Original Taste Bottle" 
+                            class="product-card-image">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Product Highlights Section 2 -->
+        <div class="grid-con">
+            <section class="product-highlight-section col-span-full l-col-span-full">
+                <div class="product-card product-card-2">
+                    <div class="product-card-image-wrapper">
+                        <img src="images/Dr.Nut_Soda_Can.png" 
+                            alt="Dr.Nut No Sweet Can" 
+                            class="product-card-image">
+                    </div>
+                    <div class="product-card-content">
+                        <h2 class="product-card-title-2">Dr.Nut No Sweet</h2>
+                        <p class="product-card-description">
+                            With all the best stuff of Dr.Nut, with no added sugar! Enjoy the crisp, familiar flavor without the calories.
+                        </p>
+                        <a href="#" class="product-card-button-2">
+                            Discover More
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Call to Action / Latest News Section -->
+        <div class="grid-con">
+            <section class="cta-section col-span-full l-col-span-full">
+                <div class="cta-content">
+                    <h2 class="cta-title">Stay Connected!</h2>
+                    <p class="cta-description">
+                        Sign up for our newsletter to get the latest news, promotions, and exclusive content.
+                    </p>
+                    <form action="#" method="POST" class="cta-form">
+                        <div class="cta-form-fields">
+                            <input type="email" placeholder="Your Email Address" 
+                                class="cta-input"
+                                required>
+                            <button type="submit" class="cta-subscribe-button">
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="grid-con footer-content">
+            <!-- Footer Column 1: Logo & Social -->
+             <div class="col-span-full m-col-start-1 m-col-end-4 footer-left">
+             <div class="col-span-full m-col-start-1 m-col-end-4 footer-logo-holder">
+                <img src="images/logo.png" alt="Dr.Nut Logo" class="footer-logo">
+             </div>
+            <div class="footer-col col-span-full m-col-start-1 m-col-end-4">
+                <p class="footer-text">Bringing refreshment and joy to the world.</p>
+                <div class="footer-social-links">
+                    <a href="#" class="footer-link">Facebook</a>
+                    <a href="#" class="footer-link">Twitter</a>
+                    <a href="#" class="footer-link">Instagram</a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Footer Column 2: Quick Links -->
+            <div class="footer-col col-span-full m-col-start-5 m-col-end-7">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">About Us</a></li>
+                    <li><a href="#" class="footer-link">Careers</a></li>
+                    <li><a href="#" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Column 3: Legal -->
+            <article class="footer-col col-span-full m-col-start-7 m-col-end-9">
+                <h3 class="footer-heading">Legal</h3>
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="#" class="footer-link">Terms of Use</a></li>
+                    <li><a href="#" class="footer-link">Cookie Preferences</a></li>
+                </ul>
+            </article>
+
+            <!-- Footer Column 4: Location/Language -->
+            <article class="footer-col col-span-full m-col-start-9 m-col-end-11">
+                <h3 class="footer-heading">Region</h3>
+                <p class="footer-text">Canada (English)</p>
+                <a href="#" class="footer-link">Change Country/Language</a>
+            </article>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2025 Dr.Nut Company. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
